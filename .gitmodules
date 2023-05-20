@@ -1,0 +1,4 @@
+[submodule "FigmaVisualFlow/Assets/Game.Modules/UniModules"]
+	path = FigmaVisualFlow/Assets/Game.Modules/UniModules
+	url = ../UniModules.git
+	branch = develop
