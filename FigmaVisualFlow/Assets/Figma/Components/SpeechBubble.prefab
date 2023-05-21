@@ -32,7 +32,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2831502820129377564}
-  m_RootOrder: 0
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -116,9 +116,13 @@ MonoBehaviour:
     atime6: 0
     atime7: 0
     m_Mode: 0
+    m_ColorSpace: -1
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  m_GradientHandlePositions: {x: 0, y: 0, z: 1, w: 0}
+  m_GradientHandlePositions:
+  - {x: 0, y: 0}
+  - {x: 1, y: 0}
+  - {x: 1, y: 0}
 --- !u!114 &223572596785546340
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -145,7 +149,7 @@ GameObject:
   - component: {fileID: 2404884089787422512}
   - component: {fileID: 4461070438423366263}
   - component: {fileID: 6728517054700025893}
-  - component: {fileID: 1091289467935859762}
+  - component: {fileID: 3028937587001433661}
   m_Layer: 0
   m_Name: TypewriterText
   m_TagString: Untagged
@@ -166,7 +170,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2831502820129377564}
-  m_RootOrder: 2
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -277,7 +281,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &1091289467935859762
+--- !u!114 &3028937587001433661
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -407,9 +411,13 @@ MonoBehaviour:
     atime6: 0
     atime7: 0
     m_Mode: 0
+    m_ColorSpace: -1
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  m_GradientHandlePositions: {x: 0, y: 0, z: 1, w: 0}
+  m_GradientHandlePositions:
+  - {x: 0, y: 0}
+  - {x: 1, y: 0}
+  - {x: 1, y: 0}
 --- !u!1 &6064835805764872909
 GameObject:
   m_ObjectHideFlags: 0
@@ -441,12 +449,12 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2831502820129377564}
-  m_RootOrder: 1
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 42.714844, y: 20.416199}
-  m_SizeDelta: {x: 45.429688, y: 40.832443}
+  m_SizeDelta: {x: 45.429688, y: 40.83246}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6847091347170864139
 CanvasRenderer:

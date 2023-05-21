@@ -1,0 +1,178 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1288214810466160109
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8900601949008985808}
+  - component: {fileID: 2501144776224375915}
+  - component: {fileID: 1141113338407828774}
+  - component: {fileID: 2479645048116852597}
+  m_Layer: 0
+  m_Name: UniGraph
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8900601949008985808
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1288214810466160109}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2501144776224375915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1288214810466160109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff87142bf9c884741bbcd295bab90ce7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  graph: {fileID: 1141113338407828774}
+--- !u!114 &1141113338407828774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1288214810466160109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 782945db79ce44748b3f294e0edf364e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  width: 250
+  nodeName: New Game Object
+  position: {x: 0, y: 0}
+  ports:
+    keys: []
+    values: []
+  graph: {fileID: 0}
+  exitOnDisable: 1
+  activateOnEnable: 0
+  guid: 3017e232-2b74-4b2b-801f-5395a45659bd
+  uniqueId: 0
+  _nextId: 3
+  nodes:
+  - {fileID: 2479645048116852597}
+  serializableNodes: []
+  _asyncDataSources:
+  - m_AssetGUID: 475beffe047ec4c45b0ce66c4d3842f9
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  _dataSources: []
+  serializedGraph: {fileID: 4752395484562606235}
+  graphProcessor:
+    rid: 4773444445936287770
+  references:
+    version: 2
+    RefIds:
+    - rid: 4773444445936287770
+      type: {class: UniGraphProcessor, ns: UniModules.GameFlow.Runtime.Core, asm: unigame.gamesystem.runtime}
+--- !u!114 &2479645048116852597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1288214810466160109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07d0c7065aa6e1e46be96a27eb24c3cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  width: 250
+  nodeName: input
+  position: {x: 0, y: 0}
+  ports:
+    keys:
+    - '[out]data'
+    - '[in]data'
+    values:
+    - id: 1
+      nodeId: 0
+      graph: {fileID: 1141113338407828774}
+      fieldName: '[out]data'
+      direction: 1
+      connectionType: 0
+      showBackingValue: 2
+      distinctValue: 0
+      isDynamic: 1
+      isInstancePortList: 0
+      portValue:
+        name: '[out]data'
+        serializedValueTypes: []
+        broadcastersCount: 0
+        distinctValues: 0
+      connections: []
+      instancePortList: 0
+    - id: 2
+      nodeId: 0
+      graph: {fileID: 1141113338407828774}
+      fieldName: '[in]data'
+      direction: 0
+      connectionType: 0
+      showBackingValue: 2
+      distinctValue: 0
+      isDynamic: 1
+      isInstancePortList: 0
+      portValue:
+        name: '[in]data'
+        serializedValueTypes: []
+        broadcastersCount: 1
+        distinctValues: 0
+      connections: []
+      instancePortList: 0
+  graph: {fileID: 1141113338407828774}
+  direction: 0
+  bindInOut: 1
+--- !u!114 &4752395484562606235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e55c63c7065f5c142907e950fb99f209, type: 3}
+  m_Name: UniGraph
+  m_EditorClassIdentifier: 
+  serializedNodes: []
+  nodes: []
+  edges: []
+  groups: []
+  stackNodes: []
+  pinnedElements: []
+  exposedParameters: []
+  serializedParameterList: []
+  stickyNotes: []
+  nodeInspectorReference: {fileID: 0}
+  position: {x: 0, y: 0, z: 0}
+  scale: {x: 1, y: 1, z: 1}
+  sourceGraph: {fileID: 0}
+  uniExposedParameters: []
+  references:
+    version: 2
+    RefIds: []

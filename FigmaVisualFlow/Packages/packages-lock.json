@@ -28,16 +28,6 @@
       "dependencies": {},
       "hash": "65affd1090e235d8441582903dd95f7e86587849"
     },
-    "com.simonoliver.unityfigma": {
-      "version": "https://github.com/simonoliver/UnityFigmaBridge.git",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {
-        "com.unity.nuget.newtonsoft-json": "2.0.1-preview.1",
-        "com.unity.textmeshpro": "2.0.1"
-      },
-      "hash": "ad44b2b0e3cc6c2ac80ad1f46288b9705672d4a2"
-    },
     "com.unity.2d.animation": {
       "version": "9.0.2",
       "depth": 0,

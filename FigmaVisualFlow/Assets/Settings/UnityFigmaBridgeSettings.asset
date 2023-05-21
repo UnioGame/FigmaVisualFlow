@@ -15,8 +15,12 @@ MonoBehaviour:
   DocumentUrl: https://www.figma.com/file/KGWsUZ9IY1dHE7TtKe0uIl/My-Figma-Unity-Bridge-Example?type=design&node-id=3-1259&t=dUruqW31p9Iwq5NK-0
   BuildPrototypeFlow: 1
   RunTimeAssetsScenePath: Assets/Scenes/SampleScene.unity
+  EnableAutoLayout: 0
   ScreenBindingNamespace: 
   ServerRenderImageScale: 3
   EnableGoogleFontsDownloads: 1
   CreateScreenNameCSharpFile: 0
   GenerateNodesMarkedForExport: 1
+  OnlyImportSelectedPages: 0
+  PageDataList: []
+  FlowGenerator: {fileID: 11400000, guid: 68b7e034e94b4464ebb3840b35ec7c0e, type: 2}
