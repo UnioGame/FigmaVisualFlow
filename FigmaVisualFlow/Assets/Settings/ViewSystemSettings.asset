@@ -16,9 +16,86 @@ MonoBehaviour:
   isActive: 1
   uiViewsDefaultFolders:
   - Assets/Views
+  - Assets/Figma
   viewsAssetsSources: []
   uiViewsSkinFolders: []
-  uiViews: []
+  uiViews:
+  - AssetGUID: 52821372df3db6c4c9c20805fed377c0
+    View:
+      m_AssetGUID: 52821372df3db6c4c9c20805fed377c0
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    ViewName: DemoEcsView
+    Tag: 
+    Type:
+      fullTypeName: Runtime.Views.DemoEcsView, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    ModelType:
+      fullTypeName: EmptyViewModel, unigame.viewsystem.runtime, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    ViewModelType:
+      fullTypeName: EmptyViewModel, unigame.viewsystem.runtime, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    PoolingPreloadCount: 1
+    Atlases: []
+  - AssetGUID: cc69d3060524ba04696808e91df9ee6f
+    View:
+      m_AssetGUID: cc69d3060524ba04696808e91df9ee6f
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    ViewName: DemoEcsView1
+    Tag: 
+    Type:
+      fullTypeName: Runtime.Views.DemoEcsView1, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    ModelType:
+      fullTypeName: EmptyViewModel, unigame.viewsystem.runtime, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    ViewModelType:
+      fullTypeName: EmptyViewModel, unigame.viewsystem.runtime, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    PoolingPreloadCount: 1
+    Atlases: []
+  - AssetGUID: 3adbef084ff67de4bbab68d3e9015550
+    View:
+      m_AssetGUID: 3adbef084ff67de4bbab68d3e9015550
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    ViewName: DemoEcsView2
+    Tag: 
+    Type:
+      fullTypeName: Runtime.Views.DemoEcsView2, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    ModelType:
+      fullTypeName: EmptyViewModel, unigame.viewsystem.runtime, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    ViewModelType:
+      fullTypeName: EmptyViewModel, unigame.viewsystem.runtime, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    PoolingPreloadCount: 1
+    Atlases: []
+  - AssetGUID: 2d3b74cd0159ec844a3b3652c9e58233
+    View:
+      m_AssetGUID: 2d3b74cd0159ec844a3b3652c9e58233
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    ViewName: DemoEcsView3
+    Tag: 
+    Type:
+      fullTypeName: Runtime.Views.DemoEcsView3, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    ModelType:
+      fullTypeName: EmptyViewModel, unigame.viewsystem.runtime, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    ViewModelType:
+      fullTypeName: EmptyViewModel, unigame.viewsystem.runtime, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    PoolingPreloadCount: 1
+    Atlases: []
   applyAddressablesGroup: 0
   labels: []
   addressableGroupName: 
