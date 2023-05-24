@@ -26,7 +26,7 @@ namespace Runtime.ViewTesting
         
             Debug.Log("View System Initialized");
 
-            await viewSystem.OpenWindow<DemoEcsView>();
+            await viewSystem.OpenWindow<DemoEcsWindow1>();
         }
     }
 }

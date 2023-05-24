@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aae07ff0f2f57ef4085d24a57744e13d, type: 3}
+  m_Name: LeoEcsFeaturesConfiguration
+  m_EditorClassIdentifier: 
+  ecsUpdateGroups:
+  - updateType: Late Update
+    features:
+    - featureGroupAsset: {fileID: 11400000, guid: 8eab82055f1e5cf4d8c3d715985f9942, type: 2}
+      featureGroup:
+        rid: -2
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }

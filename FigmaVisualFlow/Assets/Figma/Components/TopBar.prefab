@@ -35,7 +35,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 1.500061}
+  m_AnchoredPosition: {x: 0.00012207031, y: 1.500061}
   m_SizeDelta: {x: 0, y: -3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6023276698101498989
@@ -154,7 +154,7 @@ RectTransform:
   m_Children:
   - {fileID: 34105389332217212}
   - {fileID: 4177907342938908932}
-  - {fileID: 4234638271662855204}
+  - {fileID: 1200194925778073802}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -282,9 +282,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 4.000061}
+  m_AnchoredPosition: {x: 0, y: 2.5}
   m_SizeDelta: {x: 0, y: -3}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0, y: 1}
 --- !u!222 &1947369809376046699
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -382,7 +382,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!1001 &5600146661883554044
+--- !u!1001 &7481657969670603794
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -394,7 +394,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: FigmaLogo
       objectReference: {fileID: 0}
-    - target: {fileID: 3799059817226509895, guid: a4126fa7d270df54e984262f94b312bd, type: 3}
+    - target: {fileID: 4493902229618525909, guid: a4126fa7d270df54e984262f94b312bd, type: 3}
       propertyPath: NodeId
       value: 3:1271
       objectReference: {fileID: 0}
@@ -483,13 +483,13 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: 3799059817226509895, guid: a4126fa7d270df54e984262f94b312bd, type: 3}
+    - {fileID: 4493902229618525909, guid: a4126fa7d270df54e984262f94b312bd, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a4126fa7d270df54e984262f94b312bd, type: 3}
---- !u!224 &4234638271662855204 stripped
+--- !u!224 &1200194925778073802 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8607437329865751768, guid: a4126fa7d270df54e984262f94b312bd, type: 3}
-  m_PrefabInstance: {fileID: 5600146661883554044}
+  m_PrefabInstance: {fileID: 7481657969670603794}
   m_PrefabAsset: {fileID: 0}

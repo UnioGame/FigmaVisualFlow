@@ -17,23 +17,23 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 5a5fdc4de54f95e4e8b9a563af2512e3
   m_SerializeEntries:
-  - m_GUID: 52821372df3db6c4c9c20805fed377c0
-    m_Address: Assets/Figma/Screens/DemoEcsView.prefab
+  - m_GUID: 8c3779756975f3c4bbdadf10a3551a50
+    m_Address: Assets/Figma/Screens/DemoEcsWindow1.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: cc69d3060524ba04696808e91df9ee6f
-    m_Address: Assets/Figma/Screens/DemoEcsView1.prefab
+  - m_GUID: 23b2d29ec3963cb458b10b5501efcfe5
+    m_Address: Assets/Figma/Screens/DemoEcsWindow2.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 3adbef084ff67de4bbab68d3e9015550
-    m_Address: Assets/Figma/Screens/DemoEcsView2.prefab
+  - m_GUID: e2ef8f0d8b096174bb29453317f1df2d
+    m_Address: Assets/Figma/Screens/DemoEcsWindow3.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 2d3b74cd0159ec844a3b3652c9e58233
-    m_Address: Assets/Figma/Screens/DemoEcsView3.prefab
+  - m_GUID: 2d2bf638dc86ca24ea5d0770909759ad
+    m_Address: Assets/Figma/Screens/DemoEcsWindow4.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
