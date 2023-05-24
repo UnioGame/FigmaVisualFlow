@@ -20,9 +20,9 @@ MonoBehaviour:
   viewsAssetsSources: []
   uiViewsSkinFolders: []
   uiViews:
-  - AssetGUID: 8c3779756975f3c4bbdadf10a3551a50
+  - AssetGUID: 15fe03b8643d9bb4dac696db3b619ef9
     View:
-      m_AssetGUID: 8c3779756975f3c4bbdadf10a3551a50
+      m_AssetGUID: 15fe03b8643d9bb4dac696db3b619ef9
       m_SubObjectName: 
       m_SubObjectType: 
       m_EditorAssetChanged: 0

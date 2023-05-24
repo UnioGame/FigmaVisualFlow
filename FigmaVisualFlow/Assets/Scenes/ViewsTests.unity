@@ -123,6 +123,42 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &274297168
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 274297169}
+  m_Layer: 0
+  m_Name: ScreenParentTransform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &274297169
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 274297168}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4575108586123063184}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &899351474
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -540,8 +576,85 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 5926766864870262076, guid: ebcf60cf4ea373d419669c3c56eac1bf, type: 3}
+      propertyPath: m_AdditionalShaderChannelsFlag
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 2535068345804909258, guid: ebcf60cf4ea373d419669c3c56eac1bf, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 274297169}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4997810157454448782, guid: ebcf60cf4ea373d419669c3c56eac1bf, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4575108586123063185}
   m_SourcePrefab: {fileID: 100100000, guid: ebcf60cf4ea373d419669c3c56eac1bf, type: 3}
+--- !u!1 &4575108586123063183 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4997810157454448782, guid: ebcf60cf4ea373d419669c3c56eac1bf, type: 3}
+  m_PrefabInstance: {fileID: 4575108586123063182}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &4575108586123063184 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 2535068345804909258, guid: ebcf60cf4ea373d419669c3c56eac1bf, type: 3}
+  m_PrefabInstance: {fileID: 4575108586123063182}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4575108586123063185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4575108586123063183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf82e4b6df04c442cb00ae18769da419, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnScreenChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ScreenParentTransform: {fileID: 274297169}
+  m_TransitionEffect: {fileID: 0}
+  m_CurrentScreenInstance: {fileID: 0}
+  m_PrototypeFlowInitialScreenId: 
+  m_Screens:
+  - FigmaNodeId: 2:2
+    FigmaScreenPrefab: {fileID: 368784296279169870, guid: 93ee0d2c57e265442be5c8effe7c47dc, type: 3}
+    FigmaScreenName: StartScreen
+    ParentSectionNodeId: 
+  - FigmaNodeId: 3:1288
+    FigmaScreenPrefab: {fileID: 1331514844907809465, guid: 5fb1ed910f38bf64c8f4fb5c3b40476c, type: 3}
+    FigmaScreenName: ComponentsScreen
+    ParentSectionNodeId: 
+  - FigmaNodeId: 3:1477
+    FigmaScreenPrefab: {fileID: 3208422017521086035, guid: 45550bc72c7f2f049b5d77a0672cd54a, type: 3}
+    FigmaScreenName: ShapesScreen
+    ParentSectionNodeId: 
+  - FigmaNodeId: 3:1578
+    FigmaScreenPrefab: {fileID: 5436132147202200557, guid: 74b590ac6c49040428fec16728588798, type: 3}
+    FigmaScreenName: FontsScreen
+    ParentSectionNodeId: 
+  - FigmaNodeId: 3:1679
+    FigmaScreenPrefab: {fileID: 2052106420571525213, guid: 2d2bf638dc86ca24ea5d0770909759ad, type: 3}
+    FigmaScreenName: DemoEcsWindow4
+    ParentSectionNodeId: 
+  - FigmaNodeId: 914:962
+    FigmaScreenPrefab: {fileID: 8765474853925484520, guid: e2ef8f0d8b096174bb29453317f1df2d, type: 3}
+    FigmaScreenName: DemoEcsWindow3
+    ParentSectionNodeId: 
+  - FigmaNodeId: 914:869
+    FigmaScreenPrefab: {fileID: 6917761663256904896, guid: 23b2d29ec3963cb458b10b5501efcfe5, type: 3}
+    FigmaScreenName: DemoEcsWindow2
+    ParentSectionNodeId: 
+  - FigmaNodeId: 912:683
+    FigmaScreenPrefab: {fileID: 644781230103721568, guid: 2d97bdff82adf4e4f817e82d82a97ede, type: 3}
+    FigmaScreenName: PrototypesScreen
+    ParentSectionNodeId: 
+  - FigmaNodeId: 3:1776
+    FigmaScreenPrefab: {fileID: 2100787715405832750, guid: ce50d03b3bf3723458363b93bdf4fa2e, type: 3}
+    FigmaScreenName: CodeScreen
+    ParentSectionNodeId: 
+  m_Sections: []

@@ -17,7 +17,7 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 5a5fdc4de54f95e4e8b9a563af2512e3
   m_SerializeEntries:
-  - m_GUID: 8c3779756975f3c4bbdadf10a3551a50
+  - m_GUID: 15fe03b8643d9bb4dac696db3b619ef9
     m_Address: Assets/Figma/Screens/DemoEcsWindow1.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []

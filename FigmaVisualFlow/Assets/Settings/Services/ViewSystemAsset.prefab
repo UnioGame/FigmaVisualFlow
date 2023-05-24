@@ -176,9 +176,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2255a6df9791d6244a8e68a58b579d39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _layoutCanvas: {fileID: 7387079579963990725}
-  _backgroundFactory: {fileID: 0}
-  _layoutBehaviourFactory: {fileID: 11400000, guid: 3b063ea60dca1d6449cc6838450bbf68, type: 2}
+  layoutCanvas: {fileID: 7387079579963990725}
+  backgroundFactory: {fileID: 0}
+  layoutBehaviour: {fileID: 11400000, guid: f329b68635ccfd94dbed33b285e99a3a, type: 2}
 --- !u!114 &1115454216375761744
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -191,9 +191,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2255a6df9791d6244a8e68a58b579d39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _layoutCanvas: {fileID: 7387079578710871638}
-  _backgroundFactory: {fileID: 0}
-  _layoutBehaviourFactory: {fileID: 11400000, guid: ed5763f3f29a7cb4c94abf0efef0d2fe, type: 2}
+  layoutCanvas: {fileID: 7387079578710871638}
+  backgroundFactory: {fileID: 0}
+  layoutBehaviour: {fileID: 11400000, guid: f329b68635ccfd94dbed33b285e99a3a, type: 2}
 --- !u!114 &5413586547395399407
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -206,9 +206,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2255a6df9791d6244a8e68a58b579d39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _layoutCanvas: {fileID: 127793568177832887}
-  _backgroundFactory: {fileID: 0}
-  _layoutBehaviourFactory: {fileID: 11400000, guid: 6d9bedbb270ccac448e317a8efa74c0b, type: 2}
+  layoutCanvas: {fileID: 127793568177832887}
+  backgroundFactory: {fileID: 0}
+  layoutBehaviour: {fileID: 11400000, guid: fa81a35f67287a949b8f6a9524ace61e, type: 2}
 --- !u!114 &1652989200803567895
 MonoBehaviour:
   m_ObjectHideFlags: 0

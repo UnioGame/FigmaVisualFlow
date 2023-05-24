@@ -24,3 +24,5 @@ MonoBehaviour:
   OnlyImportSelectedPages: 0
   PageDataList: []
   FlowGenerator: {fileID: 11400000, guid: 68b7e034e94b4464ebb3840b35ec7c0e, type: 2}
+  PostBuildCommands:
+  - {fileID: 11400000, guid: b7b86d77191e1ae428a80720d017da18, type: 2}
